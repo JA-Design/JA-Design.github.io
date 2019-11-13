@@ -3,11 +3,19 @@
 
 html, body{
 	height: 100%;
-	width: 100%;
+	width: 97%;
+	margin: auto;
 	font-family: 'Poppins', sans-serif;
 
 
 }
+
+/*
+body{
+	max-width: 95%;
+	margin: auto;
+}
+*/
 
 .navbar{
 	padding: .8rem;
@@ -20,6 +28,7 @@ html, body{
 .nav-link{
 	font-size: 1.1em !important;
 }
+
 
 .carousel-inner img{
 	width: 100%;
@@ -124,7 +133,11 @@ html, body{
 	color: #bb0000;
 }
 
-.fa-facebook:hover, .fa-twitter:hover, .fa-instagram:hover, .fa-youtube:hover{
+.fa-whatsapp{
+	color: #25D366;
+}
+
+.fa-facebook:hover, .fa-twitter:hover, .fa-instagram:hover, .fa-youtube:hover, .fa-whatsapp:hover{
 	color: #d5d5d5
 }
 
